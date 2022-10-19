@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 200vh;
+}
+
+#particles-js {
+  height: 100vh;
+  background-color: #282729;
+}
+
+.header {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+}
+
+h1.name {
+  text-transform: uppercase;
+  font-family: "Eagle Lake", cursive;
+  font-size: 4rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Eagle Lake", cursive;
+  font-size: 2rem;
+}
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.main {
+  margin: 20px 100px;
+}
+
+ul {
+  font-size: 1.5rem;
+  padding-left: 50px;
+  list-style-type: none;
+}

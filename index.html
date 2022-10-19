@@ -7,5 +7,34 @@
     <title>Odin Projects</title>
     <link rel="stylesheet" href="./style/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="particles-js">
+      <div class="header">
+        <h1>hi 😎 Everyone I am</h1>
+        <h1 class="name">AAdil Mugal</h1>
+        <h3>I am a web developer intern at JTC</h3>
+        <hr />
+        <h3>
+          This web page lists all links of the projects that I have done in "The
+          Odin Project"
+        </h3>
+      </div>
+    </div>
+    <div class="main">
+      <h2>Foundations Projects</h2>
+      <ul>
+        <li><a href="#">Odin Recipes</a></li>
+      </ul>
+    </div>
+    <script src="./lib/particles.js-master/particles.min.js"></script>
+    <script>
+      particlesJS.load(
+        "particles-js",
+        "./lib/particles.js-master/particles.json",
+        function () {
+          console.log("callback - particles.js config loaded");
+        }
+      );
+    </script>
+  </body>
 </html>
