@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Eagle+Lake&family=Poppins&display=swap");
+
+:root {
+  --dark-background-color: #1f2937;
+  --white-text-color: #f9faf8;
+  --white-secondary-text-color: #e5e7eb;
+  --btn-color: #3882f6;
+  --black-color: #1f2937;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+/* header section  */
+.header {
+  background-color: var(--dark-background-color);
+  padding: 10px 200px;
+  min-height: 100vh;
+}
+
+.header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.header > nav > .logo {
+  font-size: 24px;
+  color: var(--white-text-color);
+}
+
+.header > nav > .links {
+  display: flex;
+  gap: 20px;
+}
+
+.header > nav > .links > a {
+  color: var(--white-secondary-text-color);
+  font-size: 18px;
+  border: 2px solid transparent;
+}
+
+.hero {
+  margin: 150px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.hero > .intro > h1 {
+  color: var(--white-text-color);
+  font-size: 48px;
+}
+
+.hero > .intro > p {
+  color: var(--white-secondary-text-color);
+  font-size: 18px;
+}
+
+.hero > .intro > button {
+  background-color: var(--btn-color);
+  padding: 3px 20px;
+  border-radius: 10px;
+  color: var(--white-text-color);
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  border: none;
+  margin-top: 10px;
+}
+
+/* some random info  */
+
+.r-info {
+  padding: 20px 200px;
+  margin-bottom: 100px;
+}
+
+.r-info > h1 {
+  color: var(--black-color);
+  text-align: center;
+  margin: 10px 0px 40px;
+}
+
+.r-info > div {
+  display: flex;
+  gap: 80px;
+}
+
+.r-info > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.r-info > div > div > img {
+  border-radius: 20px;
+}
+
+.r-info > div > div > p {
+  text-align: center;
+  color: rgb(70, 66, 66);
+}
+
+/* quote  */
+
+.quote {
+  background-color: var(--white-secondary-text-color);
+  padding: 100px 250px;
+}
+
+.quote > h1 {
+  font-weight: 400;
+  color: var(--black-color);
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.quote > h2 {
+  text-align: right;
+}
+
+/* signup-box */
+
+.signup-box {
+  margin: 100px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--btn-color);
+  padding: 50px 100px;
+  border-radius: 20px;
+}
+
+.signup-box > div > h2 {
+  color: var(--white-text-color);
+}
+
+.signup-box > div > p {
+  color: var(--white-secondary-text-color);
+}
+
+.signup-box > button {
+  cursor: pointer;
+  padding: 2px 30px;
+  background-color: inherit;
+  border: 2px solid var(--white-text-color);
+  color: var(--white-text-color);
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* footer  */
+
+footer {
+  background-color: var(--black-color);
+  color: var(--white-text-color);
+  font-size: 20px;
+  font-weight: 400;
+  padding: 30px 200px;
+  text-align: center;
+}
