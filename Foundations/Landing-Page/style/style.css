@@ -33,6 +33,7 @@
 .header > nav > .logo {
   font-size: 24px;
   color: var(--white-text-color);
+  font-weight: bold;
 }
 
 .header > nav > .links {
